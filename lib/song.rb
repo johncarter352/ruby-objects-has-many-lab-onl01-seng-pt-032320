@@ -17,8 +17,6 @@ class Song
   
   def 
   
-def artist_name
-    self.artist == nil ? nil : self.artist.name
-  end
+
   
 end
