@@ -15,7 +15,7 @@ class Song
     @@all
   end
   
-  def some_song.artist_name
+  def some_song
     artist.name
   end
   
