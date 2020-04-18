@@ -5,3 +5,4 @@ class Song
     @name = name 
     self.new << @@all 
   end
+end
