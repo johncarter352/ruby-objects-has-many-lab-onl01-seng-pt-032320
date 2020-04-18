@@ -15,9 +15,11 @@ class Song
     @@all
   end
   
-  def 
+  def some_song.artist_name
+    artist.name
+  end
   
-def artist_name
+  def artist_name
     if self.artist
       self.artist.name
     else
