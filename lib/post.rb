@@ -16,6 +16,10 @@ class Post
   def self.all
     @@all
   end
+  
+  def some_post
+    author.name
+  end
 
   def author_name
     self.author == nil ? nil : self.author.name
